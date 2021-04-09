@@ -77,7 +77,7 @@ function q($post)
                 $validate['error'] = true;
                 array_push(
                     $validate['messages'],
-                    "Почта не должна содержать русский алфавит"
+                    "Email не должен содержать русских букв"
                 );
             }
 
